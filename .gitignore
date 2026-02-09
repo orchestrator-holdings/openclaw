@@ -76,6 +76,9 @@ USER.md
 # local tooling
 .serena/
 
+# Our deployment config (contains app name, not secrets, but deployment-specific)
+fly.deploy.toml
+
 # Agent credentials and memory (NEVER COMMIT)
 /memory/
 .agent/*.json
